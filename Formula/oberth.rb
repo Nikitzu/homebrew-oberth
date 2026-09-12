@@ -2,28 +2,28 @@
 class Oberth < Formula
   desc "Self-hosted CI that runs a pipeline before it reaches the forge"
   homepage "https://github.com/Nikitzu/oberth"
-  version "0.13.31-poc25"
+  version "0.13.31-poc26"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc25/oberth-darwin-arm64"
-      sha256 "ea641cc28ea028ce4943b755f1c56add37553548565f2e097e68b68cce3cf6e3"
+      url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc26/oberth-darwin-arm64"
+      sha256 "9a05a6fd8ec95d11b5554124781358a53de0fb6dd65ffaa004c9ab3a38527540"
     end
     on_intel do
-      url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc25/oberth-darwin-amd64"
-      sha256 "2c05b821933c603c2c0a717c43866358fb5b3b5df899f82168863bb5ccda9d58"
+      url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc26/oberth-darwin-amd64"
+      sha256 "b1b0f6683caa4c8f19910a58e2369aba1c5ad95414d645016af5db8ccc211847"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc25/oberth-linux-arm64"
-      sha256 "4fb5fd1565cf234bd22775a47cdf838c0f8ebfeffb4346829544e26c5a8967c7"
+      url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc26/oberth-linux-arm64"
+      sha256 "a66726c4241c9ad266bd5bc64eb9ef0d1c8bf9fa5645d38fc764c83b9a98b696"
     end
     on_intel do
-      url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc25/oberth-linux-amd64"
-      sha256 "5a1057ae8658c7381fe55e59c92e252a1db9975e02bcbd5f3cf24dea5d4bc8b7"
+      url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc26/oberth-linux-amd64"
+      sha256 "4a0cccc6ae6653451d17405f2b586eb3a6e94b1f90c3f417bbe61292e48119d1"
     end
   end
 
