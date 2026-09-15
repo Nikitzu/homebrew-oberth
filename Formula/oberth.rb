@@ -8,22 +8,22 @@ class Oberth < Formula
   on_macos do
     on_arm do
       url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc36/oberth-darwin-arm64"
-      sha256 ""
+      sha256 "204fd105ad278bcc01b0e81df611e18ebfee3bf5a7863fa5fab5df858a80ef69"
     end
     on_intel do
       url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc36/oberth-darwin-amd64"
-      sha256 ""
+      sha256 "a888bb3e7511f31d7327d89997f25ecfc5abf0d36f472d7beba13373f2ca6ec7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc36/oberth-linux-arm64"
-      sha256 ""
+      sha256 "55f9579299d9618ae53ad8993333c1756f5737072c720fdf0d06b70c7f67abcd"
     end
     on_intel do
       url "https://github.com/Nikitzu/oberth/releases/download/v0.13.31-poc36/oberth-linux-amd64"
-      sha256 ""
+      sha256 "cf78383bc689b7301c7e119bccf76c716603d9623e8fe9a88c0e7fcb96f01417"
     end
   end
 
